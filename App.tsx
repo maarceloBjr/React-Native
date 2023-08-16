@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      <View className="flex-auto items-center bg-[#d4d4d4]">
+      <View className="flex-auto items-center bg-[#F8CCA4]">
         {/* <Text className="mt-64 text-xl">LOGO</Text> */}
         <Image
           className="flex-1 max-h-60 mt-24"
@@ -38,19 +38,20 @@ export default function App() {
             height: 55,
             borderWidth: 3,
             borderRadius: 10,
-            borderColor: "#ec6608",
-            color: "#ec6608",
+            borderColor: "#F07E31",
+            color: "#F07E31",
             fontWeight: "bold",
             fontSize: 18,
           }}
-          codeInputHighlightStyle={{ borderColor: "#673918", color: "#673918" }}
+          codeInputHighlightStyle={{ borderColor: "#1D1D1D", color: "#1D1D1D" }}
         />
         <TouchableOpacity
-          className="bg-[#ec6608] hover:bg-cyan-600 rounded-lg w-44 h-14 items-center justify-center self-center mt-12"
+          className="bg-[#F07E31] hover:bg-cyan-600 rounded-lg w-44 h-14 items-center justify-center self-center mt-12"
           onPress={onPress}
         >
-          <Text className="font-bold text-[#673918] text-xl">Entrar</Text>
+          <Text className="font-bold text-[#1D1D1D] text-xl">Entrar</Text>
         </TouchableOpacity>
+        {/* <Text className="align-end">Teste rodapé</Text> */}
         <StatusBar style="auto" />
       </View>
     </NavigationContainer>
