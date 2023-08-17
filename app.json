@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Permitir que PlanLine acesse a câmera."
+        }
+      ]
+    ],
     "name": "Projeto1",
     "slug": "Projeto1",
     "version": "1.0.0",
